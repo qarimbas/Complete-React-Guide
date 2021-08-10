@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="874ffa13-1807-437f-8291-73d4c6143314" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8f8e6ca76b8a043d3890d2b8604793b6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a8c3863aef41b2fdae4b91d821804752.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ce26c9117bfa6a31ac7e62b1d9bfde63.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CourseGoals/CourseInput/CourseInput.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CourseGoals/CourseInput/CourseInput.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CourseGoals/CourseInput/CourseInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CourseGoals/CourseInput/CourseInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Button/Button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/UI/Button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Button/Button.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,12 +44,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="format.on.save" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="optimize.imports.on.save" value="true" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\kkurt\Desktop\projects\react-complete-guide\node_modules\prettier" />
+    <property name="rearrange.code.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="actions.on.save" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -57,7 +64,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628620157128</updated>
-      <workItem from="1628620161257" duration="4088000" />
+      <workItem from="1628620161257" duration="4228000" />
+      <workItem from="1628624435468" duration="1456000" />
     </task>
     <servers />
   </component>
@@ -74,6 +82,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

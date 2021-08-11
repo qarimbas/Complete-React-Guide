@@ -1,12 +1,10 @@
-import logo from './logo.svg';
-import ExpenseItem from "./components/ExpenseItem";
-import './App.css';
+import React from 'react';
+
 
 function App() {
   return (
     <div>
-      <h2>Let's get started!</h2>
-      <ExpenseItem></ExpenseItem>
+
     </div>
   );
 }

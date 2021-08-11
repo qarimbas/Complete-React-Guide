@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff5eb88c-a17c-4882-ac48-efb77ff72dde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/UI/ErrorModal.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UI/errorModal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Users/UsersList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Users/UsersList.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/errorModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/errorModal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/AddUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/AddUser.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628664356770</updated>
       <workItem from="1628664360182" duration="2938000" />
-      <workItem from="1628701435920" duration="4145000" />
+      <workItem from="1628701435920" duration="5086000" />
     </task>
     <servers />
   </component>

@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1560ed52-418c-44ae-81f3-1b1481e9d1ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/store/CartProvider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/store/cart-context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Cart/CartItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Cart/CartItem.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/HeaderCartButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/HeaderCartButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Meals/AvailableMeals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Meals/AvailableMeals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Meals/MealItem/MealItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Meals/MealItem/MealItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Meals/MealItem/MealItemForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Meals/MealItem/MealItemForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +52,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kkurt\Desktop\projects\react-complete-guide\src\assets" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kkurt\Desktop\projects\react-complete-guide\src\components\Cart" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -66,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628838877977</updated>
       <workItem from="1628838881504" duration="671000" />
-      <workItem from="1628839661618" duration="14644000" />
+      <workItem from="1628839661618" duration="15391000" />
     </task>
     <servers />
   </component>

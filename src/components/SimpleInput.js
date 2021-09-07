@@ -1,20 +1,48 @@
-import {useState} from "react";
+import {useEffect, useState} from "react";
 
 const SimpleInput = (props) => {
 
     const [enteredName, setEnteredName] = useState('');
     const [enteredNameIsValid, setEnteredNameIsValid] = useState(true);
+    const [enteredNameTouched, setEnteredNameTouched] = useState(false);
+
+    useEffect(() => {
+        if(enteredNameIsValid) {
+            console.log('Name Input is Valid!');
+        }
+    }, [enteredNameIsValid]);
 
     const nameInputChangeHandler = event => {
         setEnteredName( event.target.value);
+
+        if (event.target.value.trim() !== '') {
+            setEnteredNameIsValid(true);
+
+        }
     };
+
+    const nameInputBlurHandler = event => {
+        setEnteredNameTouched(true);
+
+        if (enteredName.trim() === '') {
+            setEnteredNameIsValid(false);
+
+        }
+    }
+
+    const nameInputIsInvalid = !enteredNameIsValid && enteredNameTouched;
+
+    const nameInputClasses = enteredNameIsValid ? 'form-control' : 'form-control invalid';
 
     const formSubmissionHandler = event => {
         event.preventDefault();
 
+        setEnteredNameTouched(true);
+
         if (enteredName.trim() == '') {
             setEnteredNameIsValid(false);
             return;
+
         }
 
         setEnteredNameIsValid(true);
@@ -24,9 +52,9 @@ const SimpleInput = (props) => {
 
   return (
     <form onSubmit={formSubmissionHandler}>
-      <div className='form-control'>
+      <div className={nameInputClasses}>
         <label htmlFor='name'>Your Name</label>
-        <input type='text' id='name' onChange={nameInputChangeHandler} />
+        <input type='text' id='name' onChange={nameInputChangeHandler} onBlur={nameInputBlurHandler} />
           {!enteredNameIsValid && <p className={"error-text"}>Name must not be empty.</p>}
       </div>
       <div className="form-actions">

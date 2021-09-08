@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1560ed52-418c-44ae-81f3-1b1481e9d1ce" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Cart/Checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Checkout.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +17,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1wf9f45AErTUV26bp3V4C8ZyuZi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -62,7 +72,7 @@
       <updated>1628838877977</updated>
       <workItem from="1628838881504" duration="671000" />
       <workItem from="1628839661618" duration="18505000" />
-      <workItem from="1631089927917" duration="7591000" />
+      <workItem from="1631089927917" duration="9299000" />
     </task>
     <servers />
   </component>

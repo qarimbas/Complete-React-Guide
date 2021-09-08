@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Meals/AvailableMeals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Meals/AvailableMeals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Meals/AvailableMeals.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Meals/AvailableMeals.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
       <updated>1628838877977</updated>
       <workItem from="1628838881504" duration="671000" />
       <workItem from="1628839661618" duration="18505000" />
-      <workItem from="1631089927917" duration="1926000" />
+      <workItem from="1631089927917" duration="3588000" />
     </task>
     <servers />
   </component>

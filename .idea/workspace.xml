@@ -7,10 +7,7 @@
     <list default="true" id="1560ed52-418c-44ae-81f3-1b1481e9d1ce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/HeaderCartButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/HeaderCartButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/store/CartProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/store/CartProvider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Meals/AvailableMeals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Meals/AvailableMeals.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +63,7 @@
       <updated>1628838877977</updated>
       <workItem from="1628838881504" duration="671000" />
       <workItem from="1628839661618" duration="18505000" />
+      <workItem from="1631089927917" duration="1926000" />
     </task>
     <servers />
   </component>
@@ -82,6 +80,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

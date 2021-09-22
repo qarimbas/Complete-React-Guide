@@ -1,28 +1,29 @@
 import MeetupDetail from "../../components/meetups/MeetupDetail";
+import {MongoClient, ObjectId} from "mongodb";
 
-function MeetupDetails() {
+function MeetupDetails(props) {
     return (
         <MeetupDetail
-            image="https://www.lux-review.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/03/Palma-de-Mallorca-1.jpg.webp"
-            title="First Meetup" address="La Palma Mallorca" description="This is a first meetup"/>
+            image={props.meetupData.image}
+            title={props.meetupData.title} address={props.meetupData.address}
+            description={props.meetupData.description}/>
     );
 }
 
 export async function getStaticPaths() {
+    const client = await MongoClient.connect('mongodb+srv://john_wick:johnwicksdogs@cluster0.bh91r.mongodb.net/meetups?retryWrites=true&w=majority');
+    const db = client.db();
+
+    const meetupsCollection = db.collection('meetups');
+
+    const meetups = await meetupsCollection.find({}, {_id: 1}).toArray();
+
+    client.close();
+
+
     return {
         fallback: false,
-        paths: [
-            {
-                params: {
-                    meetupId: 'm1',
-                },
-            },
-            {
-                params: {
-                    meetupId: 'm2',
-                },
-            },
-        ],
+        paths: meetups.map(meetup => ({params: {meetupId: meetup._id.toString()}}))
     };
 }
 
@@ -31,16 +32,23 @@ export async function getStaticProps(context) {
 
     const meetupId = context.params.meetupId;
 
-    console.log(meetupId);
+    const client = await MongoClient.connect('mongodb+srv://john_wick:johnwicksdogs@cluster0.bh91r.mongodb.net/meetups?retryWrites=true&w=majority');
+    const db = client.db();
+
+    const meetupsCollection = db.collection('meetups');
+
+    const selectedMeetup = await meetupsCollection.findOne({_id: ObjectId(meetupId)});
+
+    client.close();
 
     return {
         props: {
             meetupData: {
-                image: "https://www.lux-review.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2020/03/Palma-de-Mallorca-1.jpg.webp",
-                id: meetupId,
-                title: 'First Meetup',
-                address: "La Palma Mallorca",
-                description: "This is a first meetup"
+                id: selectedMeetup._id.toString(),
+                title: selectedMeetup.title,
+                address: selectedMeetup.address,
+                image: selectedMeetup.image,
+                description: selectedMeetup.description,
             },
         },
     };

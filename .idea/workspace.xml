@@ -5,23 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f5bdf1e-1703-4766-8f09-6c7d5405a475" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/api/new-meetup.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/build-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/server/pages-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/pages/[meetupId].js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/server/pages/next/dist/pages/_error.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/[meetupId].js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/next/dist/pages/_error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/server/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/server/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.next/static/chunks/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/chunks/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/chunks/webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/static/development/_buildManifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/development/_buildManifest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/35d8b11bdc9a2b8d4e59.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/7f0acf8773516150822b.hot-update.json" beforeDir="false" afterPath="$PROJECT_DIR$/.next/static/webpack/7f0acf8773516150822b.hot-update.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/b47d1e89d10d26d72b0e.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.next/static/webpack/d699037c64fe2a972056.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/new-meetup/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/new-meetup/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/[meetupId]/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/[meetupId]/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632299777349</updated>
-      <workItem from="1632299779379" duration="10251000" />
+      <workItem from="1632299779379" duration="11883000" />
     </task>
     <servers />
   </component>

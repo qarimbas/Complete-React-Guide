@@ -1,14 +1,20 @@
-import logo from './logo.svg';
-import ExpenseItem from "./components/ExpenseItem";
-import './App.css';
+import React from 'react';
+import { Route } from 'react-router-dom';
 
-function App() {
+import Navigation from './components/Nav/Navigation';
+import ProductsPage from './containers/Products';
+import FavoritesPage from './containers/Favorites';
+
+const App = props => {
   return (
-    <div>
-      <h2>Let's get started!</h2>
-      <ExpenseItem></ExpenseItem>
-    </div>
+    <React.Fragment>
+      <Navigation />
+      <main>
+        <Route path="/" component={ProductsPage} exact />
+        <Route path="/favorites" component={FavoritesPage} />
+      </main>
+    </React.Fragment>
   );
-}
+};
 
 export default App;

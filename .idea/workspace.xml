@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff687352-dd0a-4af6-b4f5-538f1b5dc276" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/react-ts/src/components/NewTodo.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-ts/src/components/TodoItem.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-ts/src/components/Todos.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-ts/src/components/NewTodo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-ts/src/components/NewTodo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-ts/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-ts/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-ts/src/components/TodoItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-ts/src/components/TodoItem.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-ts/src/components/Todos.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-ts/src/components/Todos.tsx" afterDir="false" />
     </list>
@@ -62,7 +59,7 @@
       <workItem from="1634410154949" duration="971000" />
       <workItem from="1634411170184" duration="158000" />
       <workItem from="1634492457747" duration="1784000" />
-      <workItem from="1634536758118" duration="10318000" />
+      <workItem from="1634536758118" duration="11047000" />
     </task>
     <servers />
   </component>

@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff687352-dd0a-4af6-b4f5-538f1b5dc276" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/react-ts/src/components/Todos.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-ts/src/models/todo.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-ts/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-ts/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-ts/src/App.test.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/react-ts/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-ts/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-ts/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-ts/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-ts/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-ts/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-ts/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-ts/src/reportWebVitals.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-ts/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-ts/src/components/Todos.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-ts/src/components/Todos.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +59,7 @@
       <workItem from="1634410154949" duration="971000" />
       <workItem from="1634411170184" duration="158000" />
       <workItem from="1634492457747" duration="1784000" />
-      <workItem from="1634536758118" duration="5731000" />
+      <workItem from="1634536758118" duration="6481000" />
     </task>
     <servers />
   </component>
